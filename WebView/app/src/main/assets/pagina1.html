@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula21 - Android Studio</title>
+</head>
+
+<body>
+    <h1>Aula 21 - Android Studio</h1>
+    <form name="form1">
+        Nome: <input type="text" name="txt_name"><br>
+        Idade: <input type="text" name="txt_idade"><br>
+        Resultado: <input type="text" name="txt_res"><br>
+        <input type="button" value="Mostrar" onclick="mostrarDados()"/>
+    </form>
+    <a href="pagina2.html">Pagina 2</a>
+    <script>
+        function mostrarDados() {
+            document.form1.txt_res.value = "Nome: " + document.form1.txt_name.value + " Idade: " + document.form1.txt_idade.value;
+        }
+    </script>
+</body>
+
+</html>

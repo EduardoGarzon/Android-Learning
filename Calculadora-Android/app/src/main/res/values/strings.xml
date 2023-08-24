@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Calculadora Simples em Android Studio</string>
+    <string name="somar">SOMAR</string>
+    <string name="subtrair">SUBTRAIR</string>
+    <string name="dividir">DIVIDIR</string>
+    <string name="multiplicar">MULTIPLICAR</string>
+    <string name="valor1">Informe o primeiro valor</string>
+    <string name="valor2">Informe o segundo valor</string>
+    <string name="resultado">RESULTADO</string>
+</resources>

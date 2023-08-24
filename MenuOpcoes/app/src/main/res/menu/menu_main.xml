@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.agenda.MainActivity">
+    <item
+        android:id="@+id/acao_configuracoes"
+        android:orderInCategory="100"
+        android:title="Configuracoes"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/acao_sobre"
+        android:orderInCategory="100"
+        android:title="Sobre"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/acao_espelhar"
+        android:orderInCategory="100"
+        android:title="Espelhar"
+        app:showAsAction="never" />
+</menu>

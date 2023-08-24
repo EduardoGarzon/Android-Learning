@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aula01</string>
+    <string name="aluno">Luiz Eduardo Garzon de Oliveira</string>
+    <string name="curso">Curso: Android Studio</string>
+    <string name="info_name">Informe seu Nome</string>
+    <string name="clicar">Clique Aqui</string>
+</resources>
